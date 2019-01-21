@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body{
+  font-family: 'Oswald', sans-serif;
+}
+
+.header-1{
+  display: flex;
+}
+.header-2{
+  display: flex;
+}
+.email-size{
+  margin:0 2% 4%;
+}
+.phone-size{
+  margin:0 2% 4%;
+}
+ .part-1:hover{
+    background-image:url("https://media.giphy.com/media/KgtW3o95LeEGk/giphy.gif");
+    background-size: 620px 300px;   
+    } 
+ .part-1:hover .button-position-1{
+    visibility:visible; 
+} 
+  
+  .part-2:hover{
+      background-image:url("https://media.giphy.com/media/svSDHQuupqvBe/giphy.gif");
+      background-size: 620px 300px;
+    } 
+    .part-2:hover .button-position-2{
+        visibility:visible; 
+    } 
+  .part-3:hover{
+      background-image:url("https://media.giphy.com/media/iocLH38WwP80U/giphy.gif");
+      background-size: 622px 300px;}
+  .part-3:hover .button-position-3{
+        visibility:visible; 
+    }
+  .part-4:hover{
+      background-image:url("https://media.giphy.com/media/l2JhORT5IFnj6ioko/giphy.gif");
+      background-size: 620px 300px;}
+  .part-4:hover .button-position-4{
+        visibility:visible; 
+    }
+  
+  .part-1{
+  
+    background-color: #f4b93d;
+    display: flex;
+    justify-content: space-between;
+    
+         }
+  .part-2{
+    
+    background-color: #8ed8a2;
+    display: flex;
+    justify-content: space-between;
+         }
+  .part-3{
+    background-color: #005ba9;
+    display: flex;
+    justify-content: space-between;
+         }
+  .part-4{
+  
+    background-color: #981010;
+    display: flex;
+    justify-content: space-between;
+         }
+  .title-1{
+      z-index:3;
+      color:white;
+      margin-top:5%;
+      margin-left:5%;
+         }
+   .title-2{
+      z-index:3;
+      color:white;
+      margin-top:5%;
+      margin-left:5%;
+    }
+   .title-3{
+    z-index:3;
+    color:white;
+    margin-top:5%;
+    margin-left:5%;
+   }
+   .title-4{
+    z-index:3;
+    color:white;
+    margin-top:5%;
+    margin-left:5%;
+   }
+  .my-row{
+      height: 300px;
+      
+  }
+  .my-container{
+      margin:5%;
+  }
+  .button-1 {
+    margin:4%;
+    padding: 13px 22px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button-1:hover {background-color: #3e8e41}
+  
+  .button-1:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .button-position-1{
+      visibility:hidden;
+      display: flex;
+      flex-direction: column;
+  }
+  .button-position-2{
+    visibility:hidden;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .button-position-3{
+    visibility:hidden;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .button-position-4{
+    visibility:hidden;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .img-center-big{
+    width: 80%;
+    height: 80%;
+    margin-left: 9%;
+    margin-bottom: 3%;
+
+  }
+  .video-center{
+    width: 80%;
+    height: 300;
+    margin-top:5%;
+    margin-left: 9%;
+    margin-bottom: 3%;
+  }
+  .paragraph-education{
+    font-weight: lighter;
+    font-size: 95%;
+    color:rgb(0, 11, 18);
+    letter-spacing: 1.01px;
+
+}
+.flag-title{
+  display: flex;
+}
+.flag{
+  margin: 0.5% 1% 0%;
+  width: 30px;
+  height: 20px;
+}
+.calendar{
+  display: flex;
+
+}
+.position-education{
+  margin-left: 0.5%;
+}
+.mouvement{
+  -webkit-animation: mymove 2s;
+  animation: mymove 2s ;
+}
+@-webkit-keyframes mymove {
+  50% {-webkit-transform: rotate(45deg);}
+}
+@keyframes mymove {
+  50% {transform: rotate(45deg); background-color: grey;}
+}
+.fa1 {
+  padding: 20px;
+  font-size: 30px;
+  width: 54px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa1:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github{
+  background:#24292e;
+  color: white;
+
+}
+.center-social-icons{
+  display: flex;
+  justify-content: center;
+  
+}
